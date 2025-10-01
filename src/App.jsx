@@ -57,7 +57,7 @@ useEffect(() => {
   return (
     <div className='flex justify-center items-center w-screen h-screen'>
 
-      <div className="rounded-2xl border-white h-[80%] w-[30%] bg-violet-200 z-10" >
+      <div className="rounded-2xl border-white h-[80%] w-full md:w-[30%] bg-violet-200 z-10" > 
 
         <div className='flex items-center m-5 '>
           <ListTodo className="h-8 w-8 text-white " />
